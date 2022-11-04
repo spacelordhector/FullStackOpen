@@ -1,0 +1,8 @@
+sequenceDiagram
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+browser sends a POST request with 
+app/JSON data. The browser stays
+on the same page and executes
+JS code 
